@@ -1,32 +1,50 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-// import classNames from 'classnames/bind';
+import { withStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+import Divider from '@material-ui/core/Divider';
+import NameCard from '../NameCard/NameCard';
+import mockData from '../utils/mockData.json';
+import withRoot from '../withRoot';
 
-// import styles from './App.scss';
 
-// let cx = classNames.bind(styles);
+const data = mockData.results[0];
+
+const gridStyles = theme => ({
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing.unit * 2,
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  },
+});
 
 class App extends Component {
   render() {
+    const { classes } = this.props;
     return (
-      <Container>
-        <Row>
-          <Col>
-            <Jumbotron>
-            <h1>Sai Madhu Bhargav Pallem</h1>
-            <p>
-              This is a modified jumbotron that occupies the entire horizontal space of
-              its parent.
-            </p>
-            </Jumbotron>
-          </Col>
-        </Row>
-      </Container>
+      <div className={classes.root}>
+        <Grid container justify="center" alignItems="center">
+          <Grid item></Grid>
+          <Grid item xs={10}>
+            <Paper className={classes.paper} elevation={1}>
+              <NameCard
+                first_name={data.first_name}
+                last_name={data.last_name}
+                preferred_name={data.preferred_name}
+                image_url={data.image_url}
+                description={data.description}
+                social={data.social} />
+              <Divider />
+            </Paper>
+          </Grid>
+          <Grid item></Grid>
+        </Grid>
+      </div>
     );
   }
 }
 
-export default App;
+export default withRoot(withStyles(gridStyles)(App));
