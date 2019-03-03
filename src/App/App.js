@@ -7,6 +7,7 @@ import NameCard from '../NameCard/NameCard';
 import mockData from '../utils/mockData.json';
 import withRoot from '../withRoot';
 import Skills from '../Skills/Skills';
+import Experiences from '../Experiences/Experiences';
 
 
 const data = mockData.results[0];
@@ -38,7 +39,13 @@ class App extends Component {
                 image_url={data.image_url}
                 description={data.description}
                 social={data.social} />
+              {/* Experiences */}
               <Divider />
+              <br/>
+              <Experiences experiences={data.experiences} />
+              {/* Skills */}
+              <Divider />
+              <br/>
               <Skills skills={data.skills} />
             </Paper>
           </Grid>
