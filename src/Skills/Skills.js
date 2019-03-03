@@ -5,7 +5,7 @@ import Avatar from '@material-ui/core/Avatar';
 import Chip from '@material-ui/core/Chip';
 import Typography from '@material-ui/core/Typography';
 import Tooltip from '@material-ui/core/Tooltip';
-import sortSkills from './skillUtils';
+import sortSkills from './utils';
 
 const styles = theme => ({
   skill: {

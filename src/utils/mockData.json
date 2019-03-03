@@ -22,7 +22,137 @@
               "discord": null,
               "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40"
           },
-          "experiences": [],
+          "experiences": [
+              {
+                  "id": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "company_name": "Cerner Corporation",
+                  "location": "Kansas City, MO",
+                  "designation": "Software Engineer",
+                  "start_date": "2017-08-21",
+                  "end_date": null,
+                  "descriptions": [
+                      {
+                          "id": "0afc85c0-31fb-4da3-bcfe-b17a6286c526",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 6,
+                          "description": "Created reusable React  components (cerner-terra), using Redux and saga patterns for state management."
+                      },
+                      {
+                          "id": "2f9fa53b-1226-451d-9b52-99883fbb215e",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 3,
+                          "description": "Designed, modified and deployed new/existing features that can be hidden behind feature flags."
+                      },
+                      {
+                          "id": "3745dd95-35e4-4b1b-8095-2667596f6e63",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 10,
+                          "description": "Mentoring and sharing my expertise with new Programmers and Interns."
+                      },
+                      {
+                          "id": "4fb5120d-3e0e-47ca-9154-4531d2aecead",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 5,
+                          "description": "Designed a package that can be integrated into django models and automate the model auditing."
+                      },
+                      {
+                          "id": "5daa09a5-0be8-4894-bd00-8e3fa0a3c657",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 2,
+                          "description": "Extensively implemented celery and caching, backed by memcached servers for exponentially the performance."
+                      },
+                      {
+                          "id": "8deb2178-b0cf-435a-b846-5a77b0098843",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 9,
+                          "description": "Participated in intra-team Hackathons and developed some django management commands to automate initial setup for every story, cleaned up various unittests to speed up the deployment process."
+                      },
+                      {
+                          "id": "a54fb210-5be1-40be-91d4-f17124581c63",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 8,
+                          "description": "Configured various web servers (proxy servers, cache servers, app servers) running on Nginx, implemented scripts using fabric API to automate the deployment process."
+                      },
+                      {
+                          "id": "ae3b9afe-b13e-4c63-9bbe-54624749496b",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 1,
+                          "description": "Developed workflows and endpoints in 4 django and 2 rails web applications while working in HealtheIntent Dev."
+                      },
+                      {
+                          "id": "b3df396a-aa9e-4bf8-9095-cbcea2776c46",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 7,
+                          "description": "Designed responsive UI based on the mockups provided by the UX developers."
+                      },
+                      {
+                          "id": "f3dd8f93-d682-452b-a68b-bc0effd7aff9",
+                          "experience": "a88a261f-ecf8-4cf3-8bd3-418a05018324",
+                          "priority": 4,
+                          "description": "Designed standalone python packages that can be integrated into any django applications."
+                      }
+                  ]
+              },
+              {
+                "id": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
+                "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                "company_name": "University of North Texas",
+                "location": "Denton, TX",
+                "designation": "Instructional Assistant",
+                "start_date": "2016-08-15",
+                "end_date": "2017-05-12",
+                "descriptions": [
+                    {
+                        "id": "30f5aff5-4616-4773-ab0f-df338b96e792",
+                        "experience": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
+                        "priority": 3,
+                        "description": "Aided students with their assignments and projects across 2 semesters."
+                    },
+                    {
+                        "id": "9d7a84c8-0994-43ba-a237-20f8fa1478ec",
+                        "experience": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
+                        "priority": 1,
+                        "description": "Co-taught multiple courses including Introduction to Operating Systems, Internet Programming, and Database Design each with 30 – 40 enrolled students."
+                    },
+                    {
+                        "id": "d4dbca54-faf8-4b80-bac3-915270cdb53e",
+                        "experience": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
+                        "priority": 2,
+                        "description": "Assisted with faculty research projects and engaged in all technical studies up to 8 hours a week."
+                    }
+                ]
+            },
+            {
+              "id": "c7447648-64d9-4019-a5cc-fc05074cab7d",
+              "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+              "company_name": "Cognizant",
+              "location": "Hyderabad, India",
+              "designation": "Apprenticeship",
+              "start_date": "2014-07-01",
+              "end_date": "2015-05-15",
+              "descriptions": [
+                  {
+                      "id": "0f7e3d50-fc2a-4bc5-88cd-b62ec991b091",
+                      "experience": "c7447648-64d9-4019-a5cc-fc05074cab7d",
+                      "priority": 2,
+                      "description": "Designed workflows to configure a single web application by 20 teams and successfully shipped it."
+                  },
+                  {
+                      "id": "77957414-5ce7-45ef-b2f4-6bf67f39a7bb",
+                      "experience": "c7447648-64d9-4019-a5cc-fc05074cab7d",
+                      "priority": 1,
+                      "description": "Developed a Java based web application following MVC patterns and Servlets."
+                  },
+                  {
+                      "id": "8f5dfdd9-8848-43b7-8e73-92afbdc36779",
+                      "experience": "c7447648-64d9-4019-a5cc-fc05074cab7d",
+                      "priority": 3,
+                      "description": "Designed a responsive front end using JSP, CSS and JavaScript."
+                  }
+              ]
+            }
+          ],
           "projects": [],
           "skills": [
               {
@@ -33,7 +163,7 @@
                   "level": 4,
                   "category": {
                       "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
-                      "name": "Web Frameworks/Libraries"
+                      "name": "Web Framework/Library"
                   },
                   "icon_url": null
               },
@@ -57,7 +187,7 @@
                   "level": 4,
                   "category": {
                       "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
-                      "name": "Languages"
+                      "name": "Language"
                   },
                   "icon_url": null
               },
@@ -81,7 +211,7 @@
                   "level": 3,
                   "category": {
                       "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
-                      "name": "Web Frameworks/Libraries"
+                      "name": "Web Framework/Library"
                   },
                   "icon_url": null
               },
@@ -93,7 +223,7 @@
                   "level": 4,
                   "category": {
                       "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
-                      "name": "Languages"
+                      "name": "Language"
                   },
                   "icon_url": null
               },
@@ -105,7 +235,7 @@
                   "level": 3,
                   "category": {
                       "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
-                      "name": "Languages"
+                      "name": "Language"
                   },
                   "icon_url": null
               },
@@ -117,7 +247,7 @@
                   "level": 4,
                   "category": {
                       "id": "c903c1fc-5ad8-4b00-b5b1-8665f08109f5",
-                      "name": "Databases"
+                      "name": "Database"
                   },
                   "icon_url": null
               },
@@ -129,7 +259,7 @@
                   "level": 3,
                   "category": {
                       "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
-                      "name": "Languages"
+                      "name": "Language"
                   },
                   "icon_url": null
               },
@@ -141,7 +271,7 @@
                   "level": 5,
                   "category": {
                       "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
-                      "name": "Web Frameworks/Libraries"
+                      "name": "Web Framework/Library"
                   },
                   "icon_url": null
               },
@@ -153,7 +283,7 @@
                   "level": 4,
                   "category": {
                       "id": "c903c1fc-5ad8-4b00-b5b1-8665f08109f5",
-                      "name": "Databases"
+                      "name": "Database"
                   },
                   "icon_url": null
               },
@@ -165,7 +295,7 @@
                   "level": 5,
                   "category": {
                       "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
-                      "name": "Languages"
+                      "name": "Language"
                   },
                   "icon_url": null
               },
@@ -189,7 +319,7 @@
                   "level": 4,
                   "category": {
                       "id": "c903c1fc-5ad8-4b00-b5b1-8665f08109f5",
-                      "name": "Databases"
+                      "name": "Database"
                   },
                   "icon_url": null
               },
@@ -201,7 +331,7 @@
                   "level": 4,
                   "category": {
                       "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
-                      "name": "Web Frameworks/Libraries"
+                      "name": "Web Framework/Library"
                   },
                   "icon_url": null
               },
@@ -213,7 +343,7 @@
                   "level": 3,
                   "category": {
                       "id": "c903c1fc-5ad8-4b00-b5b1-8665f08109f5",
-                      "name": "Databases"
+                      "name": "Database"
                   },
                   "icon_url": null
               },
@@ -249,7 +379,7 @@
                   "level": 4,
                   "category": {
                       "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
-                      "name": "Web Frameworks/Libraries"
+                      "name": "Web Framework/Library"
                   },
                   "icon_url": null
               },
@@ -273,7 +403,7 @@
                   "level": 4,
                   "category": {
                       "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
-                      "name": "Web Frameworks/Libraries"
+                      "name": "Web Framework/Library"
                   },
                   "icon_url": null
               }
