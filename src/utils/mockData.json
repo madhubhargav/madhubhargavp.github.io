@@ -95,65 +95,150 @@
                   ]
               },
               {
-                "id": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
-                "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
-                "company_name": "University of North Texas",
-                "location": "Denton, TX",
-                "designation": "Instructional Assistant",
-                "start_date": "2016-08-15",
-                "end_date": "2017-05-12",
-                "descriptions": [
-                    {
-                        "id": "30f5aff5-4616-4773-ab0f-df338b96e792",
-                        "experience": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
-                        "priority": 3,
-                        "description": "Aided students with their assignments and projects across 2 semesters."
-                    },
-                    {
-                        "id": "9d7a84c8-0994-43ba-a237-20f8fa1478ec",
-                        "experience": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
-                        "priority": 1,
-                        "description": "Co-taught multiple courses including Introduction to Operating Systems, Internet Programming, and Database Design each with 30 – 40 enrolled students."
-                    },
-                    {
-                        "id": "d4dbca54-faf8-4b80-bac3-915270cdb53e",
-                        "experience": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
-                        "priority": 2,
-                        "description": "Assisted with faculty research projects and engaged in all technical studies up to 8 hours a week."
-                    }
-                ]
-            },
-            {
-              "id": "c7447648-64d9-4019-a5cc-fc05074cab7d",
-              "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
-              "company_name": "Cognizant",
-              "location": "Hyderabad, India",
-              "designation": "Apprenticeship",
-              "start_date": "2014-07-01",
-              "end_date": "2015-05-15",
-              "descriptions": [
-                  {
-                      "id": "0f7e3d50-fc2a-4bc5-88cd-b62ec991b091",
-                      "experience": "c7447648-64d9-4019-a5cc-fc05074cab7d",
-                      "priority": 2,
-                      "description": "Designed workflows to configure a single web application by 20 teams and successfully shipped it."
-                  },
-                  {
-                      "id": "77957414-5ce7-45ef-b2f4-6bf67f39a7bb",
-                      "experience": "c7447648-64d9-4019-a5cc-fc05074cab7d",
-                      "priority": 1,
-                      "description": "Developed a Java based web application following MVC patterns and Servlets."
-                  },
-                  {
-                      "id": "8f5dfdd9-8848-43b7-8e73-92afbdc36779",
-                      "experience": "c7447648-64d9-4019-a5cc-fc05074cab7d",
-                      "priority": 3,
-                      "description": "Designed a responsive front end using JSP, CSS and JavaScript."
-                  }
-              ]
-            }
+                  "id": "c7447648-64d9-4019-a5cc-fc05074cab7d",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "company_name": "Cognizant",
+                  "location": "Hyderabad, India",
+                  "designation": "Apprenticeship",
+                  "start_date": "2014-07-01",
+                  "end_date": "2015-05-15",
+                  "descriptions": [
+                      {
+                          "id": "0f7e3d50-fc2a-4bc5-88cd-b62ec991b091",
+                          "experience": "c7447648-64d9-4019-a5cc-fc05074cab7d",
+                          "priority": 2,
+                          "description": "Designed workflows to configure a single web application by 20 teams and successfully shipped it."
+                      },
+                      {
+                          "id": "77957414-5ce7-45ef-b2f4-6bf67f39a7bb",
+                          "experience": "c7447648-64d9-4019-a5cc-fc05074cab7d",
+                          "priority": 1,
+                          "description": "Developed a Java based web application following MVC patterns and Servlets."
+                      },
+                      {
+                          "id": "8f5dfdd9-8848-43b7-8e73-92afbdc36779",
+                          "experience": "c7447648-64d9-4019-a5cc-fc05074cab7d",
+                          "priority": 3,
+                          "description": "Designed a responsive front end using JSP, CSS and JavaScript."
+                      }
+                  ]
+              },
+              {
+                  "id": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "company_name": "University of North Texas",
+                  "location": "Denton, TX",
+                  "designation": "Instructional Assistant",
+                  "start_date": "2016-08-15",
+                  "end_date": "2017-05-12",
+                  "descriptions": [
+                      {
+                          "id": "30f5aff5-4616-4773-ab0f-df338b96e792",
+                          "experience": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
+                          "priority": 3,
+                          "description": "Aided students with their assignments and projects across 2 semesters."
+                      },
+                      {
+                          "id": "9d7a84c8-0994-43ba-a237-20f8fa1478ec",
+                          "experience": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
+                          "priority": 1,
+                          "description": "Co-taught multiple courses including Introduction to Operating Systems, Internet Programming, and Database Design each with 30 – 40 enrolled students."
+                      },
+                      {
+                          "id": "d4dbca54-faf8-4b80-bac3-915270cdb53e",
+                          "experience": "d4fcc055-4382-4c92-9aef-be68ad6ca529",
+                          "priority": 2,
+                          "description": "Assisted with faculty research projects and engaged in all technical studies up to 8 hours a week."
+                      }
+                  ]
+              }
           ],
-          "projects": [],
+          "projects": [
+              {
+                  "id": "2ad6b2a9-86a8-4c03-8020-f4e57bd516c5",
+                  "name": "Wellness Advisor",
+                  "short_description": "React Application served with Rails backend",
+                  "start_date": "2018-09-03",
+                  "end_date": null,
+                  "academy": false,
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "descriptions": [
+                      {
+                          "id": "392e9e39-b0b3-42e5-9181-9c40f76e5642",
+                          "description": "A front end application that communicates with 5 different microservices written in Rails (backed by MySQL).",
+                          "priority": 2
+                      },
+                      {
+                          "id": "9038d869-4761-49c8-a595-a6ca245c6b1c",
+                          "description": "Application to suggest recommended activities to the patients based on their responses in a questionnaire form.",
+                          "priority": 1
+                      }
+                  ]
+              },
+              {
+                  "id": "8c798c8f-8795-4b42-995a-b22820c5f09f",
+                  "name": "Cerner Health",
+                  "short_description": "Django web application used for single sign on",
+                  "start_date": "2018-05-07",
+                  "end_date": "2018-09-28",
+                  "academy": false,
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "descriptions": [
+                      {
+                          "id": "7b1fbc0e-e31e-402a-9648-84d7fb1d12e8",
+                          "description": "Centralized web application used as an authentication provider by multiple applications and provides Single Sign on (SSO).",
+                          "priority": 1
+                      },
+                      {
+                          "id": "ee15918a-d9cc-435a-a4c2-1b23814918b5",
+                          "description": "Serves an authentication and identity provider 27 different applications.",
+                          "priority": 2
+                      }
+                  ]
+              },
+              {
+                  "id": "dd6af064-5421-42dd-8acb-31d20b22c996",
+                  "name": "Patient Portal",
+                  "short_description": "Django web application",
+                  "start_date": "2017-09-25",
+                  "end_date": "2018-12-31",
+                  "academy": false,
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "descriptions": [
+                      {
+                          "id": "bd75234f-a25f-464a-aa12-9f96e621db82",
+                          "description": "Web application for patients to directly login and view their Electronic Health Record, send/receive medical documents, book physical/virtual appointments.",
+                          "priority": 1
+                      },
+                      {
+                          "id": "eca3313a-8c5a-4227-8b67-0d8bbb006450",
+                          "description": "A standalone environment and domain is assigned to each of the 1800 clients in production environment.",
+                          "priority": 2
+                      }
+                  ]
+              },
+              {
+                  "id": "de6a3827-7ed2-461b-ab13-919a1c8fcd98",
+                  "name": "Wellness Events",
+                  "short_description": "React Application served with Rails backend",
+                  "start_date": "2019-01-02",
+                  "end_date": null,
+                  "academy": false,
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "descriptions": [
+                      {
+                          "id": "009a689e-9869-4bf0-ace6-512955e142d9",
+                          "description": "A front end application that communicates with 4 different microservices written in Rails (backed by MySQL).",
+                          "priority": 2
+                      },
+                      {
+                          "id": "3cd0dc66-fb28-4b6d-94f1-e5aa79e880fe",
+                          "description": "Scheduling application used by patients to register for upcoming medical events.",
+                          "priority": 1
+                      }
+                  ]
+              }
+          ],
           "skills": [
               {
                   "id": "016f64e1-76f0-4a18-b149-bfbb50ef2c11",
