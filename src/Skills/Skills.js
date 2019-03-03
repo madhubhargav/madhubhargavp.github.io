@@ -24,9 +24,8 @@ class Skills extends React.Component {
           Skills
         </Typography>
         { sortedSkills.map((skill) =>
-            <Tooltip title={skill.category.name} placement="top">
+            <Tooltip title={skill.category.name} placement="top" key={skill.id}>
               <Chip
-                key={skill.id}
                 label={skill.name}
                 avatar={<Avatar>{skill.name.substring(0,2).toUpperCase()}</Avatar>}
                 className={classes.skill}
