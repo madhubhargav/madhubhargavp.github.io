@@ -8,6 +8,7 @@ import mockData from '../utils/mockData.json';
 import withRoot from '../withRoot';
 import Skills from '../Skills/Skills';
 import Experiences from '../Experiences/Experiences';
+import TitleBar from '../AppBar/AppBar';
 
 
 const data = mockData.results[0];
@@ -21,6 +22,13 @@ const gridStyles = theme => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
+  menuButton: {
+    marginLeft: -18,
+    marginRight: 10,
+  },
+  grow: {
+    flexGrow: 1,
+  },
 });
 
 class App extends Component {
@@ -28,6 +36,7 @@ class App extends Component {
     const { classes } = this.props;
     return (
       <div className={classes.root}>
+        <TitleBar image_url={data.image_url} preferred_name={data.preferred_name} social={data.social} />
         <Grid container justify="center" alignItems="center">
           <Grid item></Grid>
           <Grid item xs={10}>

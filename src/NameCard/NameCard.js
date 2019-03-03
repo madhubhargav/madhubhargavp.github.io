@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Grid from '@material-ui/core/Grid';
 import Avatar from '@material-ui/core/Avatar';
 import Tooltip from '@material-ui/core/Tooltip';
 import Typography from '@material-ui/core/Typography';
 import Chip from '@material-ui/core/Chip';
-import Link from '@material-ui/core/Link';
 import MailIcon from '@material-ui/icons/Mail';
 import PhoneIcon from '@material-ui/icons/Phone';
 
@@ -56,12 +53,7 @@ class NameCard extends Component {
           <Chip label={social.phone} icon={<PhoneIcon />} variant="outlined" className={classes.chip}/>
           <Chip label={social.email} icon={<MailIcon />} variant="outlined" className={classes.chip}/>
           <br />
-          <Link color="textPrimary" href={social.github} target="_blank" className={classes.link}>
-            <FontAwesomeIcon icon={faGithub} className={classes.leftIcon} size="2x"/>
-          </Link>
-          <Link color="textPrimary" href={social.linkedin} target="_blank" className={classes.link}>
-            <FontAwesomeIcon icon={faLinkedin} className={classes.leftIcon} size="2x"/>
-          </Link>
+
           <Typography color="textSecondary" paragraph>
             <i>{description}</i>
           </Typography>
