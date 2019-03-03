@@ -6,6 +6,7 @@ import Divider from '@material-ui/core/Divider';
 import NameCard from '../NameCard/NameCard';
 import mockData from '../utils/mockData.json';
 import withRoot from '../withRoot';
+import Skills from '../Skills/Skills';
 
 
 const data = mockData.results[0];
@@ -38,6 +39,7 @@ class App extends Component {
                 description={data.description}
                 social={data.social} />
               <Divider />
+              <Skills skills={data.skills} />
             </Paper>
           </Grid>
           <Grid item></Grid>

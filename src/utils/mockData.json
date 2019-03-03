@@ -11,7 +11,7 @@
           "last_name": "Pallem",
           "preferred_name": "Madhu Bhargav",
           "image_url": "https://media.licdn.com/dms/image/C4D03AQF27AudxKx7xQ/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=pWm6dJfbMURbnAux1xvt5l9et9jAKm08J9AIVuq0h5s",
-          "description": "Cras sed fringilla enim, id ornare metus. Vestibulum accumsan mattis urna, vel sollicitudin tellus laoreet vel. Maecenas a risus mi. Nullam ut accumsan dui. Fusce ut odio eget leo placerat viverra ac vel erat. Praesent nec accumsan enim, quis volutpat nulla. In hac habitasse platea dictumst.",
+          "description": "A dedicated and energetic individual seeking to join a progressive tech company where my technical skills will be fully harnessed. Bringing 2 years of combined experience in Web development using Python, JavaScript and Ruby.",
           "social": {
               "phone": "+19402088229",
               "email": "madhubhargavp@gmail.com",
@@ -24,7 +24,260 @@
           },
           "experiences": [],
           "projects": [],
-          "skills": []
+          "skills": [
+              {
+                  "id": "016f64e1-76f0-4a18-b149-bfbb50ef2c11",
+                  "name": "Flask",
+                  "last_used": "2018-07-31",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
+                      "name": "Web Frameworks/Libraries"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "03394250-7b07-4d42-8712-1391f89a638d",
+                  "name": "Jenkins",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "abc4a590-8321-41b4-b1f1-04edbc63f9a8",
+                      "name": "CI/CD"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "06afb6b3-40fc-49a6-92e6-017f8823f45c",
+                  "name": "JavaScript",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
+                      "name": "Languages"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "0b8ed3e3-0e5a-4216-850e-ce1434d13656",
+                  "name": "PythonAnywhere",
+                  "last_used": null,
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 5,
+                  "category": {
+                      "id": "893591f2-6041-4c8e-9298-ae8680a25259",
+                      "name": "Cloud"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "101ee5bf-d093-4a6a-8898-e168861e6baf",
+                  "name": "Rails",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 3,
+                  "category": {
+                      "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
+                      "name": "Web Frameworks/Libraries"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "12ed2050-e155-4e5f-be44-8f8095dbf811",
+                  "name": "Java",
+                  "last_used": "2017-06-30",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
+                      "name": "Languages"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "2ef960b5-47cf-4a82-bbe6-b73caf2d6e6a",
+                  "name": "Ruby",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 3,
+                  "category": {
+                      "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
+                      "name": "Languages"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "3530b3e6-c585-4349-a6e2-c750c82e5b24",
+                  "name": "Oracle",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "c903c1fc-5ad8-4b00-b5b1-8665f08109f5",
+                      "name": "Databases"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "3efc5e2f-93de-40a9-a7e6-83362e0e865a",
+                  "name": "C#",
+                  "last_used": "2016-12-31",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 3,
+                  "category": {
+                      "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
+                      "name": "Languages"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "465e97af-fdd0-42b0-a481-687bc7496405",
+                  "name": "Django",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 5,
+                  "category": {
+                      "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
+                      "name": "Web Frameworks/Libraries"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "4b83260e-cb69-488b-85a4-20f95cc7ce20",
+                  "name": "PostgreSQL",
+                  "last_used": "2018-05-31",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "c903c1fc-5ad8-4b00-b5b1-8665f08109f5",
+                      "name": "Databases"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "57f5683f-723e-4944-adfd-659e0528855b",
+                  "name": "Python",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 5,
+                  "category": {
+                      "id": "64741d37-f1df-41a7-be31-536fc0fd3ed7",
+                      "name": "Languages"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "58014a1c-9975-4fa0-a5b4-ca87198e3968",
+                  "name": "Google Cloud Platform",
+                  "last_used": "2017-06-30",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "893591f2-6041-4c8e-9298-ae8680a25259",
+                      "name": "Cloud"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "5fd4dca1-48f8-47c8-862a-796834142c61",
+                  "name": "MySQL",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "c903c1fc-5ad8-4b00-b5b1-8665f08109f5",
+                      "name": "Databases"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "8befbe51-84c9-4204-a998-9fbe4d73e972",
+                  "name": "SASS",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
+                      "name": "Web Frameworks/Libraries"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "94cdb407-1f67-4014-bea7-c66f6b9242b1",
+                  "name": "DC/OS",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 3,
+                  "category": {
+                      "id": "c903c1fc-5ad8-4b00-b5b1-8665f08109f5",
+                      "name": "Databases"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "c8ef8573-ee69-4d91-bae3-53376cbfc6ca",
+                  "name": "Heroku",
+                  "last_used": "2017-05-31",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "893591f2-6041-4c8e-9298-ae8680a25259",
+                      "name": "Cloud"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "dd61daf9-e6b2-4269-8495-81bb98030ae4",
+                  "name": "Spinnaker",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 3,
+                  "category": {
+                      "id": "abc4a590-8321-41b4-b1f1-04edbc63f9a8",
+                      "name": "CI/CD"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "de66e5b8-867a-416e-a514-2045ca1aedcb",
+                  "name": "Redux",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
+                      "name": "Web Frameworks/Libraries"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "f9c0656f-83de-4826-b9b7-5de32cd90441",
+                  "name": "Amazon Web Services",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "893591f2-6041-4c8e-9298-ae8680a25259",
+                      "name": "Cloud"
+                  },
+                  "icon_url": null
+              },
+              {
+                  "id": "fff0db5a-a617-4db6-bdde-928cfed77e74",
+                  "name": "React",
+                  "last_used": "2019-03-03",
+                  "person": "4ba91281-eead-4af2-8b9d-30966ab6ce40",
+                  "level": 4,
+                  "category": {
+                      "id": "10576fee-c36e-4b57-8f2b-8c69619cbca7",
+                      "name": "Web Frameworks/Libraries"
+                  },
+                  "icon_url": null
+              }
+          ]
       }
   ]
 }
