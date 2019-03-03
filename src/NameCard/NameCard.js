@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -70,5 +71,9 @@ class NameCard extends Component {
     )
   }
 }
+
+NameCard.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
 
 export default withStyles(styles)(NameCard);
