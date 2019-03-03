@@ -9,6 +9,7 @@ import withRoot from '../withRoot';
 import Skills from '../Skills/Skills';
 import Experiences from '../Experiences/Experiences';
 import TitleBar from '../AppBar/AppBar';
+import Projects from '../Projects/Projects';
 
 
 const data = mockData.results[0];
@@ -52,6 +53,10 @@ class App extends Component {
               <Divider />
               <br/>
               <Experiences experiences={data.experiences} />
+              {/* Projects */}
+              <Divider />
+              <br/>
+              <Projects projects={data.projects} />
               {/* Skills */}
               <Divider />
               <br/>

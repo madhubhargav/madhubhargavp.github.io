@@ -11,7 +11,7 @@ import ExpandMore from '@material-ui/icons/ExpandMore';
 import Typography from '@material-ui/core/Typography';
 import Tooltip from '@material-ui/core/Tooltip';
 import StarBorder from '@material-ui/icons/StarBorder';
-import descriptionSorter from './utils';
+import descriptionSorter from '../Experiences/utils';
 
 const styles = theme => ({
   skill: {
@@ -22,40 +22,40 @@ const styles = theme => ({
   },
 });
 
-class Experiences extends React.Component {
+class Projects extends React.Component {
   state = {};
 
-  handleClick = (experienceId) => {
-    this.setState(state => ({ [experienceId]: !state[experienceId] }));
+  handleClick = (projectId) => {
+    this.setState(state => ({ [projectId]: !state[projectId] }));
   };
 
   render() {
-    const { classes, experiences } = this.props;
+    const { classes, projects } = this.props;
     return (
       <React.Fragment>
         <Typography variant="h6" className={classes.title}>
-          Experience
+          Projects
         </Typography>
         <List dense={false}>
-          { experiences.map((experience) =>
-            <Tooltip title={<React.Fragment>{ experience.start_date } to { experience.end_date ? experience.end_date : 'Present' }</React.Fragment>} placement="left" key={experience.id}>
+          { projects.map((project) =>
+            <Tooltip title={<React.Fragment>{ project.start_date } to { project.end_date ? project.end_date : 'Present' }</React.Fragment>} placement="left" key={project.id}>
               <div>
-                <ListItem button onClick={() => this.handleClick(experience.id)}>
+                <ListItem button onClick={() => this.handleClick(project.id)}>
                   <ListItemText
                     primary={
                       <React.Fragment>
-                        <b>{experience.company_name}</b><br/>
-                        { experience.designation }
+                        <b>{project.name}</b><br/>
+                        { project.short_description }
                       </React.Fragment>
                     }
-                    secondary={experience.location}
+                    secondary={project.academy ? 'Personal Project': 'Professional Project' }
                   />
-                  {this.state[experience.id] ? <ExpandLess /> : <ExpandMore />}
+                  {this.state[project.id] ? <ExpandLess /> : <ExpandMore />}
                 </ListItem>
-                <Collapse in={this.state[experience.id]} timeout="auto" unmountOnExit>
+                <Collapse in={this.state[project.id]} timeout="auto" unmountOnExit>
                   <List disablePadding>
                     {
-                      descriptionSorter(experience.descriptions).map((description) =>
+                      descriptionSorter(project.descriptions).map((description) =>
                         <ListItem key={description.id} className={classes.nested}>
                           <ListItemIcon><StarBorder /></ListItemIcon>
                           <ListItemText inset primary={description.description} />
@@ -73,8 +73,8 @@ class Experiences extends React.Component {
   }
 }
 
-Experiences.propTypes = {
+Projects.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Experiences);
+export default withStyles(styles)(Projects);
