@@ -35,10 +35,10 @@ class TitleBar extends Component {
           </Typography>
           <div className={classes.grow} />
           <div className={classes.search}>
-          <Link color="inherit" href={social.github} target="_blank" className={classes.link}>
+          <Link color="inherit" href={social && social.github} target="_blank" className={classes.link}>
             <FontAwesomeIcon icon={faGithub} className={classes.leftIcon} size="2x"/>
           </Link>&nbsp;
-          <Link color="inherit" href={social.linkedin} target="_blank" className={classes.link}>
+          <Link color="inherit" href={social && social.linkedin} target="_blank" className={classes.link}>
             <FontAwesomeIcon icon={faLinkedin} className={classes.leftIcon} size="2x"/>
           </Link>
           </div>

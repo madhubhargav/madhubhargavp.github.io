@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
+import axios from 'axios';
+import _ from 'lodash';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Divider from '@material-ui/core/Divider';
+import LinearProgress from '@material-ui/core/LinearProgress';
 import NameCard from '../NameCard/NameCard';
-import mockData from '../utils/mockData.json';
+// import mockData from '../utils/mockData.json';
 import withRoot from '../withRoot';
 import Skills from '../Skills/Skills';
 import Experiences from '../Experiences/Experiences';
@@ -12,7 +15,7 @@ import TitleBar from '../AppBar/AppBar';
 import Projects from '../Projects/Projects';
 
 
-const data = mockData.results[0];
+// const data = mockData.results[0];
 
 const gridStyles = theme => ({
   root: {
@@ -33,11 +36,25 @@ const gridStyles = theme => ({
 });
 
 class App extends Component {
+  state = {
+    data: {}
+  };
+
+  componentDidMount() {
+    axios.get(`http://madhubhargavp.pythonanywhere.com/person/`)
+      .then(res => {
+        const data = res.data;
+        this.setState({ data: data.results[0] });
+      })
+  }
+
   render() {
     const { classes } = this.props;
+    const { data } = this.state;
     return (
       <div className={classes.root}>
         <TitleBar image_url={data.image_url} preferred_name={data.preferred_name} social={data.social} />
+        { _.isEmpty(data) && <LinearProgress color="secondary" /> }
         <Grid container justify="center" alignItems="center">
           <Grid item></Grid>
           <Grid item xs={10}>

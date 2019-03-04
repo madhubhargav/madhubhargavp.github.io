@@ -37,7 +37,7 @@ class Experiences extends React.Component {
           Experience
         </Typography>
         <List dense={false}>
-          { experiences.map((experience) =>
+          { experiences && experiences.map((experience) =>
             <Tooltip title={<React.Fragment>{ experience.start_date } to { experience.end_date ? experience.end_date : 'Present' }</React.Fragment>} placement="left" key={experience.id}>
               <div>
                 <ListItem button onClick={() => this.handleClick(experience.id)}>
