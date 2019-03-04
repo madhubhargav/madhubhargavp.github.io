@@ -50,8 +50,8 @@ class NameCard extends Component {
           <Tooltip title={`${first_name} ${last_name}`} placement="top">
             <Typography variant="h4" color="textPrimary" noWrap>{preferred_name}</Typography>
           </Tooltip>
-          <Chip label={social.phone} icon={<PhoneIcon />} variant="outlined" className={classes.chip}/>
-          <Chip label={social.email} icon={<MailIcon />} variant="outlined" className={classes.chip}/>
+          <Chip label={social && social.phone} icon={<PhoneIcon />} variant="outlined" className={classes.chip}/>
+          <Chip label={social && social.email} icon={<MailIcon />} variant="outlined" className={classes.chip}/>
           <br />
 
           <Typography color="textSecondary" paragraph>

@@ -23,7 +23,7 @@ class Skills extends React.Component {
         <Typography variant="h6" className={classes.title}>
           Skills
         </Typography>
-        { sortedSkills.map((skill) =>
+        { sortedSkills && sortedSkills.map((skill) =>
             <Tooltip title={skill.category.name} placement="top" key={skill.id}>
               <Chip
                 label={skill.name}

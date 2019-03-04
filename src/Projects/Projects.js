@@ -37,7 +37,7 @@ class Projects extends React.Component {
           Projects
         </Typography>
         <List dense={false}>
-          { projects.map((project) =>
+          { projects && projects.map((project) =>
             <Tooltip title={<React.Fragment>{ project.start_date } to { project.end_date ? project.end_date : 'Present' }</React.Fragment>} placement="left" key={project.id}>
               <div>
                 <ListItem button onClick={() => this.handleClick(project.id)}>
