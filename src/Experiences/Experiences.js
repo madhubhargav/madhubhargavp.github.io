@@ -14,6 +14,9 @@ import StarBorder from '@material-ui/icons/StarBorder';
 import descriptionSorter from './utils';
 
 const styles = theme => ({
+  root: {
+    width: '100%',
+  },
   skill: {
     margin: theme.spacing.unit,
   },
@@ -32,7 +35,7 @@ class Experiences extends React.Component {
   render() {
     const { classes, experiences } = this.props;
     return (
-      <React.Fragment>
+      <div className={classes.root}>
         <Typography variant="h6" className={classes.title}>
           Experience
         </Typography>
@@ -68,7 +71,7 @@ class Experiences extends React.Component {
             </Tooltip>
           )}
         </List>
-      </React.Fragment>
+      </div>
     )
   }
 }
