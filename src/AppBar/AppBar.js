@@ -25,8 +25,8 @@ class TitleBar extends Component {
   render() {
     const { classes, image_url, preferred_name, social } = this.props;
     return (
-        <AppBar position="static">
-        <Toolbar variant="dense">
+        <AppBar position="fixed">
+          <Toolbar variant="dense">
           <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <Avatar alt="Avatar" src={image_url} className={classes.avatar}/>
           </IconButton>

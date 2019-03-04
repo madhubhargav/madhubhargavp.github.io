@@ -23,6 +23,7 @@ const gridStyles = theme => ({
   },
   paper: {
     padding: theme.spacing.unit * 2,
+    paddingTop: 50,
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
@@ -57,7 +58,7 @@ class App extends Component {
         { _.isEmpty(data) && <LinearProgress color="secondary" /> }
         <Grid container justify="center" alignItems="center">
           <Grid item></Grid>
-          <Grid item xs={10}>
+          <Grid item xs={12} md={6}>
             <Paper className={classes.paper} elevation={1}>
               <NameCard
                 first_name={data.first_name}
@@ -66,18 +67,20 @@ class App extends Component {
                 image_url={data.image_url}
                 description={data.description}
                 social={data.social} />
-              {/* Experiences */}
-              <Divider />
-              <br/>
-              <Experiences experiences={data.experiences} />
-              {/* Projects */}
-              <Divider />
-              <br/>
-              <Projects projects={data.projects} />
               {/* Skills */}
               <Divider />
               <br/>
               <Skills skills={data.skills} />
+
+              {/*Experiences and Projects*/}
+              <Grid container>
+                <Grid item xs={12} lg={6}>
+                  <Experiences experiences={data.experiences} />
+                </Grid>
+                <Grid item xs={12} lg={6}>
+                  <Projects projects={data.projects} />
+                </Grid>
+              </Grid>
             </Paper>
           </Grid>
           <Grid item></Grid>
