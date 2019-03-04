@@ -41,7 +41,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    axios.get(`http://madhubhargavp.pythonanywhere.com/person/`)
+    axios.get(`https://madhubhargavp.pythonanywhere.com/person`)
       .then(res => {
         const data = res.data;
         this.setState({ data: data.results[0] });
