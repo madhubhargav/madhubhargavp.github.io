@@ -21,9 +21,11 @@ const gridStyles = theme => ({
   root: {
     flexGrow: 1,
   },
+  content: {
+    paddingTop: theme.spacing.unit * 8,
+  },
   paper: {
     padding: theme.spacing.unit * 2,
-    paddingTop: 50,
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
@@ -55,36 +57,36 @@ class App extends Component {
     return (
       <div className={classes.root}>
         <TitleBar image_url={data.image_url} preferred_name={data.preferred_name} social={data.social} />
-        { _.isEmpty(data) && <LinearProgress color="secondary" /> }
-        <Grid container justify="center" alignItems="center">
-          <Grid item></Grid>
-          <Grid item xs={12} md={6}>
-            <Paper className={classes.paper} elevation={1}>
-              <NameCard
-                first_name={data.first_name}
-                last_name={data.last_name}
-                preferred_name={data.preferred_name}
-                image_url={data.image_url}
-                description={data.description}
-                social={data.social} />
-              {/* Skills */}
-              <Divider />
-              <br/>
-              <Skills skills={data.skills} />
+        <div className={classes.content}>
+          { _.isEmpty(data) && <LinearProgress color="secondary" /> }
+          <Grid container justify="center" alignItems="center">
+            <Grid item xs={12} md={6}>
+              <Paper className={classes.paper} elevation={1}>
+                <NameCard
+                  first_name={data.first_name}
+                  last_name={data.last_name}
+                  preferred_name={data.preferred_name}
+                  image_url={data.image_url}
+                  description={data.description}
+                  social={data.social} />
+                {/* Skills */}
+                <Divider />
+                <br/>
+                <Skills skills={data.skills} />
 
-              {/*Experiences and Projects*/}
-              <Grid container>
-                <Grid item xs={12} lg={6}>
-                  <Experiences experiences={data.experiences} />
+                {/*Experiences and Projects*/}
+                <Grid container>
+                  <Grid item xs={12} lg={6}>
+                    <Experiences experiences={data.experiences} />
+                  </Grid>
+                  <Grid item xs={12} lg={6}>
+                    <Projects projects={data.projects} />
+                  </Grid>
                 </Grid>
-                <Grid item xs={12} lg={6}>
-                  <Projects projects={data.projects} />
-                </Grid>
-              </Grid>
-            </Paper>
+              </Paper>
+            </Grid>
           </Grid>
-          <Grid item></Grid>
-        </Grid>
+        </div>
       </div>
     );
   }
